@@ -1,1 +1,16 @@
+<<<<<<< HEAD
+=======
+server:
+  port: 8191
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sahanjayawardena9619/spring-cloud-config-store
+          search-paths:
+           - '*service'
+
+
+>>>>>>> 184e563ba1d17d8f777b9b0b11712ae2461452f0
 
